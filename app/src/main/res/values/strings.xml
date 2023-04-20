@@ -3,4 +3,9 @@
     <string name="min_app"> Detta är min Widgets/view app!</string>
     <string name="button">Button</string>
     <string name="bild">bild</string>
+    <string name="Knapp">Klicka på mig</string>
+    <string name="skriv_din_text_h_r">Skriv din text här</string>
+
+    <item name="editTextId" type="id" />
 </resources>
+

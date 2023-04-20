@@ -10,15 +10,15 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private TextView textView;
-    private Button button;
     private EditText editText;
+    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textView = findViewById(R.id.textView);
-        button = findViewById(R.id.button);
-        editText = findViewById(R.id.editText);
+         button = findViewById(R.id.button);
+         editText  = findViewById(R.id.editText);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
